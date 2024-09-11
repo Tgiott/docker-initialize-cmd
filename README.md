@@ -20,18 +20,18 @@
    
 3. **Rode o Build  e execute :**
    ```bash
-  npm run build && npm run start:prod
+     npm run build && npm run start:prod
 
 
 4. **Set variavel de ambiente:**
    ```bash
- set PATH=%PATH%;C:\your\new\path
+    set PATH=%PATH%;C:\your\new\path
 
 5. ** Crie um .bat para executar o npm command **
    ```
-  @echo off   
-  cd /d "%~dp0"  // Move para o diretorio do .bat
-  npm run start --silent // silencia saidas do npm
-  popd   // retorna ao diretorio de origem
+     @echo off   
+     cd /d "%~dp0"  // Move para o diretorio do .bat
+     npm run start --silent // silencia saidas do npm
+     popd   // retorna ao diretorio de origem
 
 É só um quebra-galho, entao tem varios modos melhores de fazer isso, mas foi o que resolveu na hora. Enjoy hehe!
