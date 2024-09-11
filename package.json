@@ -1,0 +1,21 @@
+{
+  "name": "runner-docker",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "ts-node ./src/app.ts",
+    "build": "tsc --outDir dist/src ./src/app.ts ",
+    "start:prod": "node ./dist/src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-process-windows": "^0.0.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
