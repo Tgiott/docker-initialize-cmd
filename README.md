@@ -1,7 +1,11 @@
 ## runner-docker
 
 ### O que é este projeto?
-[Uma breve descrição do propósito do seu projeto]
+Node.js Docker Desktop Manager
+
+#Monitors Docker containers.
+#Automatically starts Docker Desktop.
+#Allows forced shutdown.
 
 ### Pré-requisitos
 * **Node.js e npm (ou yarn):** Certifique-se de ter o Node.js e npm (ou yarn) instalados em sua máquina. Você pode baixá-los em https://nodejs.org/.
